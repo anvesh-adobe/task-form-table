@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" ng-app="myApp" class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Demo App</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="app.css">
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+  <script src="app.js"></script>
+</head>
+
+<body>
+  <div class="center-div">
+    <header>
+      <h2>Task Traker</h2>
+      <span>V 2.0</span>
+    </header>
+
+    <section class="body-container">
+      <div class="form-container">
+        <h3>Create a Task</h3>
+        <form name="taskForm" id="myTaskForm">
+          <label class="label-element" for="name">Task Name</label>
+          <input type="text" class="input-element" name="name"/>
+
+          <label class="label-element" for="date">Date</label>
+          <input type="text" class="input-element" name="date"/>
+
+          <label class="label-element" for="assigned">Assigned To</label>
+          <input type="text" class="input-element" name="assigned"/>
+
+          <input type="button" id='taskSubmit' class="submit-button" value="Submit"/>
+        </form>
+
+      </div>
+
+      <div class="data-container">
+        <h3>Existing Tasks</h3>
+        <div id="existingTasks">
+
+        </div>
+
+      </div>
+    </section>
+  </div>
+</body>
+</html>
