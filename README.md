@@ -1,6 +1,7 @@
 # task-form-table
 Task tracker form and table to add tasks and display tasks.
 
-Just clone the repo and open the index.html file
+You can find the demo of it here: 
+[Demo link](http://htmlpreview.github.io/?https://github.com/anveshatge/task-form-table/blob/master/index.html)
 
 
